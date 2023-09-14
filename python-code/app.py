@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 app = Flask(__name__)
 openai.api_key = os.environ.get("OPENAI_API_KEY",
-                                "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")  # Fallback to hardcoded ke
+                                #"key")  # Fallback to hardcoded ke
 
 
 @app.route('/convert', methods=['POST'])
