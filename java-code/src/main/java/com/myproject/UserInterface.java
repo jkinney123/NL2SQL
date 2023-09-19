@@ -1,9 +1,11 @@
 package com.myproject;
 
+import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
+import com.google.gson.Gson;
 import org.json.JSONObject; // Import this for JSON handling
 
 public class UserInterface {
@@ -15,7 +17,11 @@ public class UserInterface {
 
             try {
                 // Get SQL query from GPT
-                String sqlQueryJsonString = GptRequest.request(userQuery);
+                Map<String, List<String>> schemaMap = DatabaseConnection.fetchDatabaseSchema();
+                Gson gson = new Gson();
+                String schema_str = gson.toJson(schemaMap);
+                System.out.println("Debug: Schema String to be sent: " + schema_str);
+                String sqlQueryJsonString = GptRequest.request(userQuery, schema_str);
 
                 // Deserialize JSON and extract the SQL query
                 JSONObject json = new JSONObject(sqlQueryJsonString);

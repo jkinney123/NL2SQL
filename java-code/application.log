@@ -1,4 +1,3752 @@
+
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
+<record>
+  <date>2023-09-15T02:17:54.184607100Z</date>
+  <millis>1694744274184</millis>
+  <nanos>607100</nanos>
+  <sequence>0</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.217518300Z</date>
+  <millis>1694744274217</millis>
+  <nanos>518300</nanos>
+  <sequence>1</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table customers: [Customer_ID, LastName, FirstName, FavoriteMeal, Frequency]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.224500600Z</date>
+  <millis>1694744274224</millis>
+  <nanos>500600</nanos>
+  <sequence>2</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.225498300Z</date>
+  <millis>1694744274225</millis>
+  <nanos>498300</nanos>
+  <sequence>3</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table employee: [Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.232479400Z</date>
+  <millis>1694744274232</millis>
+  <nanos>479400</nanos>
+  <sequence>4</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.233476300Z</date>
+  <millis>1694744274233</millis>
+  <nanos>476300</nanos>
+  <sequence>5</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table location: [Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.239462100Z</date>
+  <millis>1694744274239</millis>
+  <nanos>462100</nanos>
+  <sequence>6</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.240460500Z</date>
+  <millis>1694744274240</millis>
+  <nanos>460500</nanos>
+  <sequence>7</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table menu: [menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.245445300Z</date>
+  <millis>1694744274245</millis>
+  <nanos>445300</nanos>
+  <sequence>8</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.246443900Z</date>
+  <millis>1694744274246</millis>
+  <nanos>443900</nanos>
+  <sequence>9</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table positions: [position_ID, positionTitle, WorkHours, AvgWage, AvgSalary]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.250465700Z</date>
+  <millis>1694744274250</millis>
+  <nanos>465700</nanos>
+  <sequence>10</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.251462700Z</date>
+  <millis>1694744274251</millis>
+  <nanos>462700</nanos>
+  <sequence>11</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table rating: [RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.255418900Z</date>
+  <millis>1694744274255</millis>
+  <nanos>418900</nanos>
+  <sequence>12</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.255418900Z</date>
+  <millis>1694744274255</millis>
+  <nanos>418900</nanos>
+  <sequence>13</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table revenue: [Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.260419200Z</date>
+  <millis>1694744274260</millis>
+  <nanos>419200</nanos>
+  <sequence>14</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.261401600Z</date>
+  <millis>1694744274261</millis>
+  <nanos>401600</nanos>
+  <sequence>15</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table supplier: [Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.267386100Z</date>
+  <millis>1694744274267</millis>
+  <nanos>386100</nanos>
+  <sequence>16</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.268384400Z</date>
+  <millis>1694744274268</millis>
+  <nanos>384400</nanos>
+  <sequence>17</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table products: [id, product_name, department_name, price, stock_quantity]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.273372200Z</date>
+  <millis>1694744274273</millis>
+  <nanos>372200</nanos>
+  <sequence>18</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.273372200Z</date>
+  <millis>1694744274273</millis>
+  <nanos>372200</nanos>
+  <sequence>19</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table authors: [id, name, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.277361500Z</date>
+  <millis>1694744274277</millis>
+  <nanos>361500</nanos>
+  <sequence>20</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.277361500Z</date>
+  <millis>1694744274277</millis>
+  <nanos>361500</nanos>
+  <sequence>21</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table posts: [id, title, body, createdAt, updatedAt, AuthorId]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.281348400Z</date>
+  <millis>1694744274281</millis>
+  <nanos>348400</nanos>
+  <sequence>22</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.282345700Z</date>
+  <millis>1694744274282</millis>
+  <nanos>345700</nanos>
+  <sequence>23</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table burgers: [id, burger_name, Devoured]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.286338300Z</date>
+  <millis>1694744274286</millis>
+  <nanos>338300</nanos>
+  <sequence>24</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.286338300Z</date>
+  <millis>1694744274286</millis>
+  <nanos>338300</nanos>
+  <sequence>25</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table chirps: [id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.291322100Z</date>
+  <millis>1694744274291</millis>
+  <nanos>322100</nanos>
+  <sequence>26</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.292321500Z</date>
+  <millis>1694744274292</millis>
+  <nanos>321500</nanos>
+  <sequence>27</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table devices: [id, device, status, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.295313400Z</date>
+  <millis>1694744274295</millis>
+  <nanos>313400</nanos>
+  <sequence>28</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.296311300Z</date>
+  <millis>1694744274296</millis>
+  <nanos>311300</nanos>
+  <sequence>29</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table schedules: [id, deviceID, date, time, trigger, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.301295400Z</date>
+  <millis>1694744274301</millis>
+  <nanos>295400</nanos>
+  <sequence>30</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.302293400Z</date>
+  <millis>1694744274302</millis>
+  <nanos>293400</nanos>
+  <sequence>31</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table users: [id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.306282Z</date>
+  <millis>1694744274306</millis>
+  <nanos>282000</nanos>
+  <sequence>32</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.307281400Z</date>
+  <millis>1694744274307</millis>
+  <nanos>281400</nanos>
+  <sequence>33</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table movies: [id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.311270700Z</date>
+  <millis>1694744274311</millis>
+  <nanos>270700</nanos>
+  <sequence>34</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.311270700Z</date>
+  <millis>1694744274311</millis>
+  <nanos>270700</nanos>
+  <sequence>35</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table clients: [id, client_name]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.315262400Z</date>
+  <millis>1694744274315</millis>
+  <nanos>262400</nanos>
+  <sequence>36</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.316256Z</date>
+  <millis>1694744274316</millis>
+  <nanos>256000</nanos>
+  <sequence>37</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table parties: [id, party_name, party_type, party_cost, client_id]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.319249100Z</date>
+  <millis>1694744274319</millis>
+  <nanos>249100</nanos>
+  <sequence>38</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.320244100Z</date>
+  <millis>1694744274320</millis>
+  <nanos>244100</nanos>
+  <sequence>39</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table actors: [id, name, coolness_points, attitude]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.324236700Z</date>
+  <millis>1694744274324</millis>
+  <nanos>236700</nanos>
+  <sequence>40</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.324236700Z</date>
+  <millis>1694744274324</millis>
+  <nanos>236700</nanos>
+  <sequence>41</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table chirps: [id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.328225500Z</date>
+  <millis>1694744274328</millis>
+  <nanos>225500</nanos>
+  <sequence>42</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.328225500Z</date>
+  <millis>1694744274328</millis>
+  <nanos>225500</nanos>
+  <sequence>43</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table menu: [menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.332212100Z</date>
+  <millis>1694744274332</millis>
+  <nanos>212100</nanos>
+  <sequence>44</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.332212100Z</date>
+  <millis>1694744274332</millis>
+  <nanos>212100</nanos>
+  <sequence>45</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table rating: [RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.336202800Z</date>
+  <millis>1694744274336</millis>
+  <nanos>202800</nanos>
+  <sequence>46</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.337198800Z</date>
+  <millis>1694744274337</millis>
+  <nanos>198800</nanos>
+  <sequence>47</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table sys_config: [variable, value, set_time, set_by]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.340192200Z</date>
+  <millis>1694744274340</millis>
+  <nanos>192200</nanos>
+  <sequence>48</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.340192200Z</date>
+  <millis>1694744274340</millis>
+  <nanos>192200</nanos>
+  <sequence>49</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table tasks: [id, task, id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.343185400Z</date>
+  <millis>1694744274343</millis>
+  <nanos>185400</nanos>
+  <sequence>50</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.343185400Z</date>
+  <millis>1694744274343</millis>
+  <nanos>185400</nanos>
+  <sequence>51</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table tasks: [id, task, id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.346177200Z</date>
+  <millis>1694744274346</millis>
+  <nanos>177200</nanos>
+  <sequence>52</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.347174500Z</date>
+  <millis>1694744274347</millis>
+  <nanos>174500</nanos>
+  <sequence>53</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table schools: [id, name]</message>
+</record>
+<record>
+  <date>2023-09-15T02:17:54.348172100Z</date>
+  <millis>1694744274348</millis>
+  <nanos>172100</nanos>
+  <sequence>54</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.446262100Z</date>
+  <millis>1694744311446</millis>
+  <nanos>262100</nanos>
+  <sequence>55</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.447262200Z</date>
+  <millis>1694744311447</millis>
+  <nanos>262200</nanos>
+  <sequence>56</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table customers: [Customer_ID, LastName, FirstName, FavoriteMeal, Frequency]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.450253900Z</date>
+  <millis>1694744311450</millis>
+  <nanos>253900</nanos>
+  <sequence>57</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.450253900Z</date>
+  <millis>1694744311450</millis>
+  <nanos>253900</nanos>
+  <sequence>58</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table employee: [Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.453245600Z</date>
+  <millis>1694744311453</millis>
+  <nanos>245600</nanos>
+  <sequence>59</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.453245600Z</date>
+  <millis>1694744311453</millis>
+  <nanos>245600</nanos>
+  <sequence>60</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table location: [Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.457235600Z</date>
+  <millis>1694744311457</millis>
+  <nanos>235600</nanos>
+  <sequence>61</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.457235600Z</date>
+  <millis>1694744311457</millis>
+  <nanos>235600</nanos>
+  <sequence>62</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table menu: [menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.460264300Z</date>
+  <millis>1694744311460</millis>
+  <nanos>264300</nanos>
+  <sequence>63</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.460264300Z</date>
+  <millis>1694744311460</millis>
+  <nanos>264300</nanos>
+  <sequence>64</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table positions: [position_ID, positionTitle, WorkHours, AvgWage, AvgSalary]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.463254Z</date>
+  <millis>1694744311463</millis>
+  <nanos>254000</nanos>
+  <sequence>65</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.464254500Z</date>
+  <millis>1694744311464</millis>
+  <nanos>254500</nanos>
+  <sequence>66</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table rating: [RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.466211300Z</date>
+  <millis>1694744311466</millis>
+  <nanos>211300</nanos>
+  <sequence>67</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.467211300Z</date>
+  <millis>1694744311467</millis>
+  <nanos>211300</nanos>
+  <sequence>68</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table revenue: [Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.470202800Z</date>
+  <millis>1694744311470</millis>
+  <nanos>202800</nanos>
+  <sequence>69</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.470202800Z</date>
+  <millis>1694744311470</millis>
+  <nanos>202800</nanos>
+  <sequence>70</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table supplier: [Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.473225800Z</date>
+  <millis>1694744311473</millis>
+  <nanos>225800</nanos>
+  <sequence>71</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.474192900Z</date>
+  <millis>1694744311474</millis>
+  <nanos>192900</nanos>
+  <sequence>72</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table products: [id, product_name, department_name, price, stock_quantity]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.476218Z</date>
+  <millis>1694744311476</millis>
+  <nanos>218000</nanos>
+  <sequence>73</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.477184700Z</date>
+  <millis>1694744311477</millis>
+  <nanos>184700</nanos>
+  <sequence>74</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table authors: [id, name, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.480174500Z</date>
+  <millis>1694744311480</millis>
+  <nanos>174500</nanos>
+  <sequence>75</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.480174500Z</date>
+  <millis>1694744311480</millis>
+  <nanos>174500</nanos>
+  <sequence>76</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table posts: [id, title, body, createdAt, updatedAt, AuthorId]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.483166300Z</date>
+  <millis>1694744311483</millis>
+  <nanos>166300</nanos>
+  <sequence>77</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.483166300Z</date>
+  <millis>1694744311483</millis>
+  <nanos>166300</nanos>
+  <sequence>78</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table burgers: [id, burger_name, Devoured]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.486158Z</date>
+  <millis>1694744311486</millis>
+  <nanos>158000</nanos>
+  <sequence>79</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.486158Z</date>
+  <millis>1694744311486</millis>
+  <nanos>158000</nanos>
+  <sequence>80</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table chirps: [id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.489150400Z</date>
+  <millis>1694744311489</millis>
+  <nanos>150400</nanos>
+  <sequence>81</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.490150600Z</date>
+  <millis>1694744311490</millis>
+  <nanos>150600</nanos>
+  <sequence>82</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table devices: [id, device, status, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.493140700Z</date>
+  <millis>1694744311493</millis>
+  <nanos>140700</nanos>
+  <sequence>83</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.493140700Z</date>
+  <millis>1694744311493</millis>
+  <nanos>140700</nanos>
+  <sequence>84</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table schedules: [id, deviceID, date, time, trigger, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.496132Z</date>
+  <millis>1694744311496</millis>
+  <nanos>132000</nanos>
+  <sequence>85</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.497129Z</date>
+  <millis>1694744311497</millis>
+  <nanos>129000</nanos>
+  <sequence>86</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table users: [id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.499123600Z</date>
+  <millis>1694744311499</millis>
+  <nanos>123600</nanos>
+  <sequence>87</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.500121100Z</date>
+  <millis>1694744311500</millis>
+  <nanos>121100</nanos>
+  <sequence>88</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table movies: [id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.503115200Z</date>
+  <millis>1694744311503</millis>
+  <nanos>115200</nanos>
+  <sequence>89</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.503115200Z</date>
+  <millis>1694744311503</millis>
+  <nanos>115200</nanos>
+  <sequence>90</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table clients: [id, client_name]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.506139Z</date>
+  <millis>1694744311506</millis>
+  <nanos>139000</nanos>
+  <sequence>91</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.507102400Z</date>
+  <millis>1694744311507</millis>
+  <nanos>102400</nanos>
+  <sequence>92</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table parties: [id, party_name, party_type, party_cost, client_id]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.510094300Z</date>
+  <millis>1694744311510</millis>
+  <nanos>94300</nanos>
+  <sequence>93</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.510094300Z</date>
+  <millis>1694744311510</millis>
+  <nanos>94300</nanos>
+  <sequence>94</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table actors: [id, name, coolness_points, attitude]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.513086300Z</date>
+  <millis>1694744311513</millis>
+  <nanos>86300</nanos>
+  <sequence>95</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.514084400Z</date>
+  <millis>1694744311514</millis>
+  <nanos>84400</nanos>
+  <sequence>96</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table chirps: [id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.518072800Z</date>
+  <millis>1694744311518</millis>
+  <nanos>72800</nanos>
+  <sequence>97</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.518072800Z</date>
+  <millis>1694744311518</millis>
+  <nanos>72800</nanos>
+  <sequence>98</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table menu: [menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.522064500Z</date>
+  <millis>1694744311522</millis>
+  <nanos>64500</nanos>
+  <sequence>99</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.522064500Z</date>
+  <millis>1694744311522</millis>
+  <nanos>64500</nanos>
+  <sequence>100</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table rating: [RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.525057500Z</date>
+  <millis>1694744311525</millis>
+  <nanos>57500</nanos>
+  <sequence>101</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.526054400Z</date>
+  <millis>1694744311526</millis>
+  <nanos>54400</nanos>
+  <sequence>102</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table sys_config: [variable, value, set_time, set_by]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.529045900Z</date>
+  <millis>1694744311529</millis>
+  <nanos>45900</nanos>
+  <sequence>103</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.529045900Z</date>
+  <millis>1694744311529</millis>
+  <nanos>45900</nanos>
+  <sequence>104</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table tasks: [id, task, id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.532038200Z</date>
+  <millis>1694744311532</millis>
+  <nanos>38200</nanos>
+  <sequence>105</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.532038200Z</date>
+  <millis>1694744311532</millis>
+  <nanos>38200</nanos>
+  <sequence>106</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table tasks: [id, task, id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.535030200Z</date>
+  <millis>1694744311535</millis>
+  <nanos>30200</nanos>
+  <sequence>107</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.536028100Z</date>
+  <millis>1694744311536</millis>
+  <nanos>28100</nanos>
+  <sequence>108</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table schools: [id, name]</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.536028100Z</date>
+  <millis>1694744311536</millis>
+  <nanos>28100</nanos>
+  <sequence>109</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-15T02:18:31.605115800Z</date>
+  <millis>1694744311605</millis>
+  <nanos>115800</nanos>
+  <sequence>112</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>SEVERE</level>
+  <class>com.myproject.UserInterface</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>An exception was thrown</message>
+  <exception>
+    <message>java.io.IOException: Server returned HTTP response code: 500 for URL: http://127.0.0.1:5000/convert</message>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection</class>
+      <method>getInputStream0</method>
+      <line>1980</line>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection</class>
+      <method>getInputStream</method>
+      <line>1581</line>
+    </frame>
+    <frame>
+      <class>com.myproject.GptRequest</class>
+      <method>request</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.myproject.UserInterface</class>
+      <method>run</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>com.myproject.Main</class>
+      <method>main</method>
+      <line>15</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-09-15T03:01:52.392039200Z</date>
+  <millis>1694746912392</millis>
+  <nanos>39200</nanos>
+  <sequence>0</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.421958100Z</date>
+  <millis>1694746912421</millis>
+  <nanos>958100</nanos>
+  <sequence>1</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table customers: [Customer_ID, LastName, FirstName, FavoriteMeal, Frequency]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.428939500Z</date>
+  <millis>1694746912428</millis>
+  <nanos>939500</nanos>
+  <sequence>2</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.429939200Z</date>
+  <millis>1694746912429</millis>
+  <nanos>939200</nanos>
+  <sequence>3</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table employee: [Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.436920600Z</date>
+  <millis>1694746912436</millis>
+  <nanos>920600</nanos>
+  <sequence>4</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.437918400Z</date>
+  <millis>1694746912437</millis>
+  <nanos>918400</nanos>
+  <sequence>5</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table location: [Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.444895800Z</date>
+  <millis>1694746912444</millis>
+  <nanos>895800</nanos>
+  <sequence>6</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.445893900Z</date>
+  <millis>1694746912445</millis>
+  <nanos>893900</nanos>
+  <sequence>7</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table menu: [menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.450884100Z</date>
+  <millis>1694746912450</millis>
+  <nanos>884100</nanos>
+  <sequence>8</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.450884100Z</date>
+  <millis>1694746912450</millis>
+  <nanos>884100</nanos>
+  <sequence>9</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table positions: [position_ID, positionTitle, WorkHours, AvgWage, AvgSalary]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.455867400Z</date>
+  <millis>1694746912455</millis>
+  <nanos>867400</nanos>
+  <sequence>10</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.455867400Z</date>
+  <millis>1694746912455</millis>
+  <nanos>867400</nanos>
+  <sequence>11</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table rating: [RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.460856300Z</date>
+  <millis>1694746912460</millis>
+  <nanos>856300</nanos>
+  <sequence>12</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.461850900Z</date>
+  <millis>1694746912461</millis>
+  <nanos>850900</nanos>
+  <sequence>13</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table revenue: [Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.465840300Z</date>
+  <millis>1694746912465</millis>
+  <nanos>840300</nanos>
+  <sequence>14</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.465840300Z</date>
+  <millis>1694746912465</millis>
+  <nanos>840300</nanos>
+  <sequence>15</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table supplier: [Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.469830100Z</date>
+  <millis>1694746912469</millis>
+  <nanos>830100</nanos>
+  <sequence>16</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.470827600Z</date>
+  <millis>1694746912470</millis>
+  <nanos>827600</nanos>
+  <sequence>17</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table products: [id, product_name, department_name, price, stock_quantity]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.474820700Z</date>
+  <millis>1694746912474</millis>
+  <nanos>820700</nanos>
+  <sequence>18</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.474820700Z</date>
+  <millis>1694746912474</millis>
+  <nanos>820700</nanos>
+  <sequence>19</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table authors: [id, name, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.478807100Z</date>
+  <millis>1694746912478</millis>
+  <nanos>807100</nanos>
+  <sequence>20</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.479802900Z</date>
+  <millis>1694746912479</millis>
+  <nanos>802900</nanos>
+  <sequence>21</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table posts: [id, title, body, createdAt, updatedAt, AuthorId]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.482795300Z</date>
+  <millis>1694746912482</millis>
+  <nanos>795300</nanos>
+  <sequence>22</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.483792700Z</date>
+  <millis>1694746912483</millis>
+  <nanos>792700</nanos>
+  <sequence>23</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table burgers: [id, burger_name, Devoured]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.486785400Z</date>
+  <millis>1694746912486</millis>
+  <nanos>785400</nanos>
+  <sequence>24</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.487781900Z</date>
+  <millis>1694746912487</millis>
+  <nanos>781900</nanos>
+  <sequence>25</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table chirps: [id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.493767400Z</date>
+  <millis>1694746912493</millis>
+  <nanos>767400</nanos>
+  <sequence>26</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.493767400Z</date>
+  <millis>1694746912493</millis>
+  <nanos>767400</nanos>
+  <sequence>27</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table devices: [id, device, status, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.498752300Z</date>
+  <millis>1694746912498</millis>
+  <nanos>752300</nanos>
+  <sequence>28</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.498752300Z</date>
+  <millis>1694746912498</millis>
+  <nanos>752300</nanos>
+  <sequence>29</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table schedules: [id, deviceID, date, time, trigger, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.502741800Z</date>
+  <millis>1694746912502</millis>
+  <nanos>741800</nanos>
+  <sequence>30</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.503739700Z</date>
+  <millis>1694746912503</millis>
+  <nanos>739700</nanos>
+  <sequence>31</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table users: [id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.506731600Z</date>
+  <millis>1694746912506</millis>
+  <nanos>731600</nanos>
+  <sequence>32</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.506731600Z</date>
+  <millis>1694746912506</millis>
+  <nanos>731600</nanos>
+  <sequence>33</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table movies: [id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.510721300Z</date>
+  <millis>1694746912510</millis>
+  <nanos>721300</nanos>
+  <sequence>34</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.511718300Z</date>
+  <millis>1694746912511</millis>
+  <nanos>718300</nanos>
+  <sequence>35</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table clients: [id, client_name]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.515708100Z</date>
+  <millis>1694746912515</millis>
+  <nanos>708100</nanos>
+  <sequence>36</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.516704300Z</date>
+  <millis>1694746912516</millis>
+  <nanos>704300</nanos>
+  <sequence>37</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table parties: [id, party_name, party_type, party_cost, client_id]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.521691600Z</date>
+  <millis>1694746912521</millis>
+  <nanos>691600</nanos>
+  <sequence>38</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.522691200Z</date>
+  <millis>1694746912522</millis>
+  <nanos>691200</nanos>
+  <sequence>39</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table actors: [id, name, coolness_points, attitude]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.527675800Z</date>
+  <millis>1694746912527</millis>
+  <nanos>675800</nanos>
+  <sequence>40</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.528673700Z</date>
+  <millis>1694746912528</millis>
+  <nanos>673700</nanos>
+  <sequence>41</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table chirps: [id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.534659Z</date>
+  <millis>1694746912534</millis>
+  <nanos>659000</nanos>
+  <sequence>42</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.535655800Z</date>
+  <millis>1694746912535</millis>
+  <nanos>655800</nanos>
+  <sequence>43</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table menu: [menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.539644800Z</date>
+  <millis>1694746912539</millis>
+  <nanos>644800</nanos>
+  <sequence>44</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.540641900Z</date>
+  <millis>1694746912540</millis>
+  <nanos>641900</nanos>
+  <sequence>45</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table rating: [RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.551611300Z</date>
+  <millis>1694746912551</millis>
+  <nanos>611300</nanos>
+  <sequence>46</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.552608600Z</date>
+  <millis>1694746912552</millis>
+  <nanos>608600</nanos>
+  <sequence>47</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table sys_config: [variable, value, set_time, set_by]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.556599700Z</date>
+  <millis>1694746912556</millis>
+  <nanos>599700</nanos>
+  <sequence>48</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.556599700Z</date>
+  <millis>1694746912556</millis>
+  <nanos>599700</nanos>
+  <sequence>49</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table tasks: [id, task, id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.561585Z</date>
+  <millis>1694746912561</millis>
+  <nanos>585000</nanos>
+  <sequence>50</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.561585Z</date>
+  <millis>1694746912561</millis>
+  <nanos>585000</nanos>
+  <sequence>51</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table tasks: [id, task, id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.564576Z</date>
+  <millis>1694746912564</millis>
+  <nanos>576000</nanos>
+  <sequence>52</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.565574900Z</date>
+  <millis>1694746912565</millis>
+  <nanos>574900</nanos>
+  <sequence>53</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table schools: [id, name]</message>
+</record>
+<record>
+  <date>2023-09-15T03:01:52.567568200Z</date>
+  <millis>1694746912567</millis>
+  <nanos>568200</nanos>
+  <sequence>54</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.467339600Z</date>
+  <millis>1694746956467</millis>
+  <nanos>339600</nanos>
+  <sequence>55</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.467339600Z</date>
+  <millis>1694746956467</millis>
+  <nanos>339600</nanos>
+  <sequence>56</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table customers: [Customer_ID, LastName, FirstName, FavoriteMeal, Frequency]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.470332800Z</date>
+  <millis>1694746956470</millis>
+  <nanos>332800</nanos>
+  <sequence>57</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.471326500Z</date>
+  <millis>1694746956471</millis>
+  <nanos>326500</nanos>
+  <sequence>58</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table employee: [Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.474290100Z</date>
+  <millis>1694746956474</millis>
+  <nanos>290100</nanos>
+  <sequence>59</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.474290100Z</date>
+  <millis>1694746956474</millis>
+  <nanos>290100</nanos>
+  <sequence>60</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table location: [Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.477282100Z</date>
+  <millis>1694746956477</millis>
+  <nanos>282100</nanos>
+  <sequence>61</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.478279700Z</date>
+  <millis>1694746956478</millis>
+  <nanos>279700</nanos>
+  <sequence>62</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table menu: [menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.481270800Z</date>
+  <millis>1694746956481</millis>
+  <nanos>270800</nanos>
+  <sequence>63</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.481270800Z</date>
+  <millis>1694746956481</millis>
+  <nanos>270800</nanos>
+  <sequence>64</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table positions: [position_ID, positionTitle, WorkHours, AvgWage, AvgSalary]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.484263300Z</date>
+  <millis>1694746956484</millis>
+  <nanos>263300</nanos>
+  <sequence>65</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.485261700Z</date>
+  <millis>1694746956485</millis>
+  <nanos>261700</nanos>
+  <sequence>66</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table rating: [RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.488252900Z</date>
+  <millis>1694746956488</millis>
+  <nanos>252900</nanos>
+  <sequence>67</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.489248400Z</date>
+  <millis>1694746956489</millis>
+  <nanos>248400</nanos>
+  <sequence>68</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table revenue: [Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.492240800Z</date>
+  <millis>1694746956492</millis>
+  <nanos>240800</nanos>
+  <sequence>69</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.493277600Z</date>
+  <millis>1694746956493</millis>
+  <nanos>277600</nanos>
+  <sequence>70</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table supplier: [Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.496231800Z</date>
+  <millis>1694746956496</millis>
+  <nanos>231800</nanos>
+  <sequence>71</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.496231800Z</date>
+  <millis>1694746956496</millis>
+  <nanos>231800</nanos>
+  <sequence>72</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table products: [id, product_name, department_name, price, stock_quantity]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.499224100Z</date>
+  <millis>1694746956499</millis>
+  <nanos>224100</nanos>
+  <sequence>73</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.499224100Z</date>
+  <millis>1694746956499</millis>
+  <nanos>224100</nanos>
+  <sequence>74</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table authors: [id, name, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.502214200Z</date>
+  <millis>1694746956502</millis>
+  <nanos>214200</nanos>
+  <sequence>75</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.503212700Z</date>
+  <millis>1694746956503</millis>
+  <nanos>212700</nanos>
+  <sequence>76</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table posts: [id, title, body, createdAt, updatedAt, AuthorId]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.505207100Z</date>
+  <millis>1694746956505</millis>
+  <nanos>207100</nanos>
+  <sequence>77</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.506204600Z</date>
+  <millis>1694746956506</millis>
+  <nanos>204600</nanos>
+  <sequence>78</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table burgers: [id, burger_name, Devoured]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.509195900Z</date>
+  <millis>1694746956509</millis>
+  <nanos>195900</nanos>
+  <sequence>79</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.509195900Z</date>
+  <millis>1694746956509</millis>
+  <nanos>195900</nanos>
+  <sequence>80</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table chirps: [id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.516177900Z</date>
+  <millis>1694746956516</millis>
+  <nanos>177900</nanos>
+  <sequence>81</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.516177900Z</date>
+  <millis>1694746956516</millis>
+  <nanos>177900</nanos>
+  <sequence>82</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table devices: [id, device, status, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.520165300Z</date>
+  <millis>1694746956520</millis>
+  <nanos>165300</nanos>
+  <sequence>83</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.520165300Z</date>
+  <millis>1694746956520</millis>
+  <nanos>165300</nanos>
+  <sequence>84</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table schedules: [id, deviceID, date, time, trigger, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.523159300Z</date>
+  <millis>1694746956523</millis>
+  <nanos>159300</nanos>
+  <sequence>85</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.524157100Z</date>
+  <millis>1694746956524</millis>
+  <nanos>157100</nanos>
+  <sequence>86</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table users: [id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.526150800Z</date>
+  <millis>1694746956526</millis>
+  <nanos>150800</nanos>
+  <sequence>87</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.527148500Z</date>
+  <millis>1694746956527</millis>
+  <nanos>148500</nanos>
+  <sequence>88</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table movies: [id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.529144200Z</date>
+  <millis>1694746956529</millis>
+  <nanos>144200</nanos>
+  <sequence>89</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.530141Z</date>
+  <millis>1694746956530</millis>
+  <nanos>141000</nanos>
+  <sequence>90</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table clients: [id, client_name]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.533132700Z</date>
+  <millis>1694746956533</millis>
+  <nanos>132700</nanos>
+  <sequence>91</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.533132700Z</date>
+  <millis>1694746956533</millis>
+  <nanos>132700</nanos>
+  <sequence>92</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table parties: [id, party_name, party_type, party_cost, client_id]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.536125400Z</date>
+  <millis>1694746956536</millis>
+  <nanos>125400</nanos>
+  <sequence>93</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.536125400Z</date>
+  <millis>1694746956536</millis>
+  <nanos>125400</nanos>
+  <sequence>94</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table actors: [id, name, coolness_points, attitude]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.539117100Z</date>
+  <millis>1694746956539</millis>
+  <nanos>117100</nanos>
+  <sequence>95</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.540114600Z</date>
+  <millis>1694746956540</millis>
+  <nanos>114600</nanos>
+  <sequence>96</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table chirps: [id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.543108200Z</date>
+  <millis>1694746956543</millis>
+  <nanos>108200</nanos>
+  <sequence>97</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.543108200Z</date>
+  <millis>1694746956543</millis>
+  <nanos>108200</nanos>
+  <sequence>98</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table menu: [menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.547095700Z</date>
+  <millis>1694746956547</millis>
+  <nanos>95700</nanos>
+  <sequence>99</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.547095700Z</date>
+  <millis>1694746956547</millis>
+  <nanos>95700</nanos>
+  <sequence>100</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table rating: [RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.550086800Z</date>
+  <millis>1694746956550</millis>
+  <nanos>86800</nanos>
+  <sequence>101</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.551084200Z</date>
+  <millis>1694746956551</millis>
+  <nanos>84200</nanos>
+  <sequence>102</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table sys_config: [variable, value, set_time, set_by]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.554075700Z</date>
+  <millis>1694746956554</millis>
+  <nanos>75700</nanos>
+  <sequence>103</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.554075700Z</date>
+  <millis>1694746956554</millis>
+  <nanos>75700</nanos>
+  <sequence>104</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table tasks: [id, task, id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.557069600Z</date>
+  <millis>1694746956557</millis>
+  <nanos>69600</nanos>
+  <sequence>105</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.558067400Z</date>
+  <millis>1694746956558</millis>
+  <nanos>67400</nanos>
+  <sequence>106</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table tasks: [id, task, id, task]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.561059600Z</date>
+  <millis>1694746956561</millis>
+  <nanos>59600</nanos>
+  <sequence>107</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.561059600Z</date>
+  <millis>1694746956561</millis>
+  <nanos>59600</nanos>
+  <sequence>108</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table schools: [id, name]</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.562056800Z</date>
+  <millis>1694746956562</millis>
+  <nanos>56800</nanos>
+  <sequence>109</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-15T03:02:36.626882600Z</date>
+  <millis>1694746956626</millis>
+  <nanos>882600</nanos>
+  <sequence>112</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>SEVERE</level>
+  <class>com.myproject.UserInterface</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>An exception was thrown</message>
+  <exception>
+    <message>java.io.IOException: Server returned HTTP response code: 500 for URL: http://127.0.0.1:5000/convert</message>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection</class>
+      <method>getInputStream0</method>
+      <line>1980</line>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection</class>
+      <method>getInputStream</method>
+      <line>1581</line>
+    </frame>
+    <frame>
+      <class>com.myproject.GptRequest</class>
+      <method>request</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.myproject.UserInterface</class>
+      <method>run</method>
+      <line>24</line>
+    </frame>
+    <frame>
+      <class>com.myproject.Main</class>
+      <method>main</method>
+      <line>15</line>
+    </frame>
+  </exception>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-09-19T21:47:16.286710100Z</date>
+  <millis>1695160036286</millis>
+  <nanos>710100</nanos>
+  <sequence>0</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.330855100Z</date>
+  <millis>1695160036330</millis>
+  <nanos>855100</nanos>
+  <sequence>1</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table customers: [Customer_ID, LastName, FirstName, FavoriteMeal, Frequency]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.341769100Z</date>
+  <millis>1695160036341</millis>
+  <nanos>769100</nanos>
+  <sequence>2</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.343254900Z</date>
+  <millis>1695160036343</millis>
+  <nanos>254900</nanos>
+  <sequence>3</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table employee: [Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.355159300Z</date>
+  <millis>1695160036355</millis>
+  <nanos>159300</nanos>
+  <sequence>4</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.356646500Z</date>
+  <millis>1695160036356</millis>
+  <nanos>646500</nanos>
+  <sequence>5</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table location: [Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.365574200Z</date>
+  <millis>1695160036365</millis>
+  <nanos>574200</nanos>
+  <sequence>6</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.366070300Z</date>
+  <millis>1695160036366</millis>
+  <nanos>70300</nanos>
+  <sequence>7</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table menu: [menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.372518900Z</date>
+  <millis>1695160036372</millis>
+  <nanos>518900</nanos>
+  <sequence>8</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.373510100Z</date>
+  <millis>1695160036373</millis>
+  <nanos>510100</nanos>
+  <sequence>9</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table positions: [position_ID, positionTitle, WorkHours, AvgWage, AvgSalary]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.379462300Z</date>
+  <millis>1695160036379</millis>
+  <nanos>462300</nanos>
+  <sequence>10</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.380454700Z</date>
+  <millis>1695160036380</millis>
+  <nanos>454700</nanos>
+  <sequence>11</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table rating: [RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.386408600Z</date>
+  <millis>1695160036386</millis>
+  <nanos>408600</nanos>
+  <sequence>12</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.386904600Z</date>
+  <millis>1695160036386</millis>
+  <nanos>904600</nanos>
+  <sequence>13</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table revenue: [Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.392360700Z</date>
+  <millis>1695160036392</millis>
+  <nanos>360700</nanos>
+  <sequence>14</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.393352500Z</date>
+  <millis>1695160036393</millis>
+  <nanos>352500</nanos>
+  <sequence>15</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table supplier: [Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.398311Z</date>
+  <millis>1695160036398</millis>
+  <nanos>311000</nanos>
+  <sequence>16</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.398807100Z</date>
+  <millis>1695160036398</millis>
+  <nanos>807100</nanos>
+  <sequence>17</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table products: [id, product_name, department_name, price, stock_quantity]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.404263Z</date>
+  <millis>1695160036404</millis>
+  <nanos>263000</nanos>
+  <sequence>18</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.404759800Z</date>
+  <millis>1695160036404</millis>
+  <nanos>759800</nanos>
+  <sequence>19</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table authors: [id, name, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.409718600Z</date>
+  <millis>1695160036409</millis>
+  <nanos>718600</nanos>
+  <sequence>20</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.410214400Z</date>
+  <millis>1695160036410</millis>
+  <nanos>214400</nanos>
+  <sequence>21</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table posts: [id, title, body, createdAt, updatedAt, AuthorId]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.414679900Z</date>
+  <millis>1695160036414</millis>
+  <nanos>679900</nanos>
+  <sequence>22</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.415670900Z</date>
+  <millis>1695160036415</millis>
+  <nanos>670900</nanos>
+  <sequence>23</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table burgers: [id, burger_name, Devoured]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.420136Z</date>
+  <millis>1695160036420</millis>
+  <nanos>136000</nanos>
+  <sequence>24</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.421127900Z</date>
+  <millis>1695160036421</millis>
+  <nanos>127900</nanos>
+  <sequence>25</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table chirps: [id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.426087500Z</date>
+  <millis>1695160036426</millis>
+  <nanos>87500</nanos>
+  <sequence>26</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.426582800Z</date>
+  <millis>1695160036426</millis>
+  <nanos>582800</nanos>
+  <sequence>27</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table devices: [id, device, status, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.431542Z</date>
+  <millis>1695160036431</millis>
+  <nanos>542000</nanos>
+  <sequence>28</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.432038100Z</date>
+  <millis>1695160036432</millis>
+  <nanos>38100</nanos>
+  <sequence>29</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table schedules: [id, deviceID, date, time, trigger, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.437990200Z</date>
+  <millis>1695160036437</millis>
+  <nanos>990200</nanos>
+  <sequence>30</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.438487Z</date>
+  <millis>1695160036438</millis>
+  <nanos>487000</nanos>
+  <sequence>31</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table users: [id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.442950600Z</date>
+  <millis>1695160036442</millis>
+  <nanos>950600</nanos>
+  <sequence>32</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.443446800Z</date>
+  <millis>1695160036443</millis>
+  <nanos>446800</nanos>
+  <sequence>33</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table movies: [id, task]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.447415Z</date>
+  <millis>1695160036447</millis>
+  <nanos>415000</nanos>
+  <sequence>34</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.448407900Z</date>
+  <millis>1695160036448</millis>
+  <nanos>407900</nanos>
+  <sequence>35</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table clients: [id, client_name]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.460310500Z</date>
+  <millis>1695160036460</millis>
+  <nanos>310500</nanos>
+  <sequence>36</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.461302300Z</date>
+  <millis>1695160036461</millis>
+  <nanos>302300</nanos>
+  <sequence>37</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table parties: [id, party_name, party_type, party_cost, client_id]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.465769500Z</date>
+  <millis>1695160036465</millis>
+  <nanos>769500</nanos>
+  <sequence>38</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.466265400Z</date>
+  <millis>1695160036466</millis>
+  <nanos>265400</nanos>
+  <sequence>39</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table actors: [id, name, coolness_points, attitude]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.471225Z</date>
+  <millis>1695160036471</millis>
+  <nanos>225000</nanos>
+  <sequence>40</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.471721300Z</date>
+  <millis>1695160036471</millis>
+  <nanos>721300</nanos>
+  <sequence>41</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table chirps: [id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.477175800Z</date>
+  <millis>1695160036477</millis>
+  <nanos>175800</nanos>
+  <sequence>42</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.478169500Z</date>
+  <millis>1695160036478</millis>
+  <nanos>169500</nanos>
+  <sequence>43</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table menu: [menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.483626300Z</date>
+  <millis>1695160036483</millis>
+  <nanos>626300</nanos>
+  <sequence>44</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.484614600Z</date>
+  <millis>1695160036484</millis>
+  <nanos>614600</nanos>
+  <sequence>45</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table rating: [RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.491063700Z</date>
+  <millis>1695160036491</millis>
+  <nanos>63700</nanos>
+  <sequence>46</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.492056900Z</date>
+  <millis>1695160036492</millis>
+  <nanos>56900</nanos>
+  <sequence>47</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table sys_config: [variable, value, set_time, set_by]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.496025600Z</date>
+  <millis>1695160036496</millis>
+  <nanos>25600</nanos>
+  <sequence>48</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.497016700Z</date>
+  <millis>1695160036497</millis>
+  <nanos>16700</nanos>
+  <sequence>49</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table tasks: [id, task, id, task]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.500985500Z</date>
+  <millis>1695160036500</millis>
+  <nanos>985500</nanos>
+  <sequence>50</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.501481700Z</date>
+  <millis>1695160036501</millis>
+  <nanos>481700</nanos>
+  <sequence>51</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table tasks: [id, task, id, task]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.505449300Z</date>
+  <millis>1695160036505</millis>
+  <nanos>449300</nanos>
+  <sequence>52</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Table Names: [customers, employee, location, menu, positions, rating, revenue, supplier, products, authors, posts, burgers, chirps, devices, schedules, users, movies, clients, parties, actors, chirps, menu, rating, sys_config, tasks, tasks, schools]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.505945100Z</date>
+  <millis>1695160036505</millis>
+  <nanos>945100</nanos>
+  <sequence>53</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Columns for table schools: [id, name]</message>
+</record>
+<record>
+  <date>2023-09-19T21:47:16.509417800Z</date>
+  <millis>1695160036509</millis>
+  <nanos>417800</nanos>
+  <sequence>54</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-09-19T21:48:44.130112300Z</date>
+  <millis>1695160124130</millis>
+  <nanos>112300</nanos>
+  <sequence>0</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T21:49:23.591413700Z</date>
+  <millis>1695160163591</millis>
+  <nanos>413700</nanos>
+  <sequence>1</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T21:50:30.923116500Z</date>
+  <millis>1695160230923</millis>
+  <nanos>116500</nanos>
+  <sequence>5</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T21:52:08.734315400Z</date>
+  <millis>1695160328734</millis>
+  <nanos>315400</nanos>
+  <sequence>9</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T21:52:09.362505300Z</date>
+  <millis>1695160329362</millis>
+  <nanos>505300</nanos>
+  <sequence>13</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>SEVERE</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>executeWriteQuery</method>
+  <thread>1</thread>
+  <message>An exception was thrown</message>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ope
+
+SELECT *
+FROM bamazon.users
+WHERE name = 'nope'' at line 1</message>
+    <frame>
+      <class>com.mysql.cj.jdbc.exceptions.SQLError</class>
+      <method>createSQLException</method>
+      <line>120</line>
+    </frame>
+    <frame>
+      <class>com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping</class>
+      <method>translateException</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.mysql.cj.jdbc.StatementImpl</class>
+      <method>executeUpdateInternal</method>
+      <line>1334</line>
+    </frame>
+    <frame>
+      <class>com.mysql.cj.jdbc.StatementImpl</class>
+      <method>executeLargeUpdate</method>
+      <line>2084</line>
+    </frame>
+    <frame>
+      <class>com.mysql.cj.jdbc.StatementImpl</class>
+      <method>executeUpdate</method>
+      <line>1245</line>
+    </frame>
+    <frame>
+      <class>com.myproject.DatabaseConnection</class>
+      <method>executeWriteQuery</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>com.myproject.DatabaseConnection</class>
+      <method>executeSQLQuery</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.myproject.UserInterface</class>
+      <method>run</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>com.myproject.Main</class>
+      <method>main</method>
+      <line>15</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-09-19T21:52:55.788534700Z</date>
+  <millis>1695160375788</millis>
+  <nanos>534700</nanos>
+  <sequence>0</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-09-19T21:56:48.671634800Z</date>
+  <millis>1695160608671</millis>
+  <nanos>634800</nanos>
+  <sequence>0</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T21:57:12.120722200Z</date>
+  <millis>1695160632120</millis>
+  <nanos>722200</nanos>
+  <sequence>1</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T21:57:39.343197100Z</date>
+  <millis>1695160659343</millis>
+  <nanos>197100</nanos>
+  <sequence>5</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T21:57:40.008739Z</date>
+  <millis>1695160660008</millis>
+  <nanos>739000</nanos>
+  <sequence>9</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>SEVERE</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>executeReadQuery</method>
+  <thread>1</thread>
+  <message>An exception was thrown</message>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'show = 'seinfeld'' at line 1</message>
+    <frame>
+      <class>com.mysql.cj.jdbc.exceptions.SQLError</class>
+      <method>createSQLException</method>
+      <line>120</line>
+    </frame>
+    <frame>
+      <class>com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping</class>
+      <method>translateException</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.mysql.cj.jdbc.StatementImpl</class>
+      <method>executeQuery</method>
+      <line>1200</line>
+    </frame>
+    <frame>
+      <class>com.myproject.DatabaseConnection</class>
+      <method>executeReadQuery</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>com.myproject.DatabaseConnection</class>
+      <method>executeSQLQuery</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>com.myproject.UserInterface</class>
+      <method>run</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>com.myproject.Main</class>
+      <method>main</method>
+      <line>15</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-09-19T21:58:23.946459100Z</date>
+  <millis>1695160703946</millis>
+  <nanos>459100</nanos>
+  <sequence>10</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T21:58:24.778576500Z</date>
+  <millis>1695160704778</millis>
+  <nanos>576500</nanos>
+  <sequence>14</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>SEVERE</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>executeReadQuery</method>
+  <thread>1</thread>
+  <message>An exception was thrown</message>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: Unknown column 'c.name' in 'field list'</message>
+    <frame>
+      <class>com.mysql.cj.jdbc.exceptions.SQLError</class>
+      <method>createSQLException</method>
+      <line>120</line>
+    </frame>
+    <frame>
+      <class>com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping</class>
+      <method>translateException</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.mysql.cj.jdbc.StatementImpl</class>
+      <method>executeQuery</method>
+      <line>1200</line>
+    </frame>
+    <frame>
+      <class>com.myproject.DatabaseConnection</class>
+      <method>executeReadQuery</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>com.myproject.DatabaseConnection</class>
+      <method>executeSQLQuery</method>
+      <line>79</line>
+    </frame>
+    <frame>
+      <class>com.myproject.UserInterface</class>
+      <method>run</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>com.myproject.Main</class>
+      <method>main</method>
+      <line>15</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-09-19T21:59:34.802018400Z</date>
+  <millis>1695160774802</millis>
+  <nanos>18400</nanos>
+  <sequence>0</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T21:59:41.488177600Z</date>
+  <millis>1695160781488</millis>
+  <nanos>177600</nanos>
+  <sequence>1</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T22:00:03.233798400Z</date>
+  <millis>1695160803233</millis>
+  <nanos>798400</nanos>
+  <sequence>5</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T22:00:59.696896400Z</date>
+  <millis>1695160859696</millis>
+  <nanos>896400</nanos>
+  <sequence>9</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T22:01:28.006211900Z</date>
+  <millis>1695160888006</millis>
+  <nanos>211900</nanos>
+  <sequence>13</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
+<record>
+  <date>2023-09-19T22:02:00.484064100Z</date>
+  <millis>1695160920484</millis>
+  <nanos>64100</nanos>
+  <sequence>17</sequence>
+  <logger>com.myproject.DatabaseConnection</logger>
+  <level>INFO</level>
+  <class>com.myproject.DatabaseConnection</class>
+  <method>fetchDatabaseSchema</method>
+  <thread>1</thread>
+  <message>Fetched Database Schema: {clients=[id, client_name], devices=[id, device, status, createdAt, updatedAt], rating=[RateID, customerName, restaurant_Location, date, score, Location_ID, RateID, customerName, restaurant_Location, date, score], positions=[position_ID, positionTitle, WorkHours, AvgWage, AvgSalary], chirps=[id, author, chirp, time, id, author, body, created_at, createdAt, updatedAt], employee=[Employee_ID, FullName, position_ID, DateOfEmployment, PhoneNumber], menu=[menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice, Supplier_ID, menuID, customerName, welcomeDrink, appetizer, mainDish, dessert, dishPrice], posts=[id, title, body, createdAt, updatedAt, AuthorId], users=[id, name, email, PASSWORD, createdAt, updatedAt, USER, CURRENT_CONNECTIONS, TOTAL_CONNECTIONS], products=[id, product_name, department_name, price, stock_quantity], movies=[id, task], actors=[id, name, coolness_points, attitude], revenue=[Revenue_ID, Rewards_program, Consumer_attendance, Prices, Marketing, Inventory, RateID], schools=[id, name], supplier=[Supplier_ID, Supplier_City, Supplier_Name, Supplier_Transportation, Phone_Number, supplier_cost], schedules=[id, deviceID, date, time, trigger, createdAt, updatedAt], parties=[id, party_name, party_type, party_cost, client_id], sys_config=[variable, value, set_time, set_by], location=[Location_ID, Employee_ID, Country, State, City, StreetName, ZipCode], customers=[Customer_ID, LastName, FirstName, FavoriteMeal, Frequency], burgers=[id, burger_name, Devoured], tasks=[id, task, id, task], authors=[id, name, createdAt, updatedAt]}</message>
+</record>
 </log>
